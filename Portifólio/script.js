@@ -9,8 +9,15 @@ $(document).ready(function(){
 });
 
 var typed = new Typed(".typing", {
-    strings: ["Desenvolvedor", "Front-end","Estudante de Engenharia de Software","E estou a procura de um estágio"],
+    strings: ["Desenvolvedor", "Front-end","Estudante de Engenharia de Software","E estou a procura de uma oportunidade"],
     typeSpeed:50,
     backSpeed:60,
     loop:true
 });
+var typed = new Typed(".typing-2", {
+    strings: ["Desenvolvimento Web", "E Desenvolvimento FullStack"],
+    typeSpeed:50,
+    backSpeed:60,
+    loop:true
+});
+
